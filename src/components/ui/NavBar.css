@@ -1,0 +1,14 @@
+.navbar-container {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+}
+
+body {
+  height: 300vh;
+}
