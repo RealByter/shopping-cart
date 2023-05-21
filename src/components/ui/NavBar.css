@@ -1,14 +1,40 @@
 .navbar-container {
   position: absolute;
+  top: 0;
   height: 100vh;
   width: 100vw;
+  max-width: 100%;
 }
 
 .navbar {
   position: sticky;
   top: 0;
+  box-shadow: 0 3px 8px rgba(0,0,0,.3);
+  height: 4.5rem; /* This should be the same as the nav-filler height */
+  z-index: 1;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
 }
 
-body {
-  height: 300vh;
+.nav-filler {
+  height: 4.5rem;
+}
+
+.nav-title {
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 1.65rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 6rem;
+  justify-content: space-around;
+  padding: 0 3rem;
+}
+
+.nav-links a i {
+  margin-right: 0.2rem;
 }

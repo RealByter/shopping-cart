@@ -1,9 +1,10 @@
-import RouteSwitch from "./RouteSwitch";
-import "./normalize.css";
-import './reset.css'
+import RouteSwitch from './RouteSwitch';
+import './normalize.css';
+import './reset.css';
+import './App.css';
 
 const App = () => {
-  return <RouteSwitch />
-}
+	return <RouteSwitch />;
+};
 
 export default App;
