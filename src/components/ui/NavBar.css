@@ -4,22 +4,24 @@
   height: 100vh;
   width: 100vw;
   max-width: 100%;
+  pointer-events: none;
 }
 
 .navbar {
   position: sticky;
   top: 0;
   box-shadow: 0 3px 8px rgba(0,0,0,.3);
-  height: 4.5rem; /* This should be the same as the nav-filler height */
+  height: var(--nav-height); /* This should be the same as the nav-filler height */
   z-index: 1;
   background-color: white;
   display: flex;
   align-items: center;
   padding: 1rem;
+  pointer-events: all;
 }
 
 .nav-filler {
-  height: 4.5rem;
+  height: var(--nav-height);
 }
 
 .nav-title {

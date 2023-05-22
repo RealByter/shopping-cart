@@ -1,0 +1,30 @@
+.home {
+  background-image: url('https://ajinkyap22.github.io/shopping-cart/static/media/background.3ec00b94.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - var(--nav-height));
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.home h2 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.home p {
+  font-size: 1.1rem;
+  margin-bottom: 5rem;
+}
+
+.home a {
+  background-color: #202020;
+  border: 0;
+  color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,.6);
+  padding: 2rem;
+  font-size: 4rem;
+  text-decoration: none;
+  display: inline-block;
+}
